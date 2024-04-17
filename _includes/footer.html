@@ -1,12 +1,25 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <!-- <data class="u-url" href="{{ "/" | relative_url }}"></data> -->
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <!-- <div class="footer-col-wrapper"> -->
+
+      <ul class="footcont">
+        <li>
+            <img alt="Person Icon" src="images/icon_logo.png">Ryan Dang &#169; 2024
+        </li>
+        <li>
+            <a href="mailto: dangvryan@gmail.com"><img alt="Mail Icon" src="images/icon_mail.png">dangvryan@gmail.com</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/dangvryan/"><img alt="LinkedIn Icon" src="images/icon_linked.png">linkedin.com/in/dangvryan</a>
+        </li>
+    </ul>
+
+      <!-- <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -28,7 +41,7 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
-    </div>
+    </div> -->
 
   </div>
 
